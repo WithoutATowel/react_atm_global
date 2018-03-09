@@ -11,7 +11,7 @@ class App extends Component {
       savingsBalance: 0
     }
   }
-
+  
   handleDepositClick = (e, amount, name) => {
     e.preventDefault();
     if (isNaN(amount)) {
